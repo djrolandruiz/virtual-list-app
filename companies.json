@@ -1,0 +1,13 @@
+[
+    { "name": "Apple", "rank": 1, "country": "United States" },
+    { "name": "Microsoft", "rank": 2, "country": "United States" },
+    { "name": "Amazon", "rank": 3, "country": "United States" },
+    { "name": "Alphabet", "rank": 4, "country": "United States" },
+    { "name": "Facebook", "rank": 5, "country": "United States" },
+    { "name": "Tencent", "rank": 6, "country": "China" },
+    { "name": "Samsung Electronics", "rank": 7, "country": "South Korea" },
+    { "name": "Intel", "rank": 8, "country": "United States" },
+    { "name": "IBM", "rank": 9, "country": "United States" },
+    { "name": "Oracle", "rank": 10, "country": "United States" }
+  ]
+  
