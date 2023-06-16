@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FixedSizeList, ListChildComponentProps } from 'react-window';
 import { Paper } from '@mui/material';
 import { styled } from '@mui/system';
@@ -12,15 +12,17 @@ interface Company {
   name: string;
   rank: number;
   country: string;
+  description: string;
 }
 
 interface VirtualListProps {
   items: Company[];
+  onItemClick: (company: Company) => void;
 }
 
-const VirtualList: React.FC<VirtualListProps> = ({ items }) => {
+const VirtualList: React.FC<VirtualListProps> = ({ items, onItemClick }) => {
   const Row: React.FC<ListChildComponentProps> = ({ index, style }) => (
-    <ListItem style={style}>
+    <ListItem style={style} onClick={() => onItemClick(items[index])}>
       <div>
         <h3>{items[index].name}</h3>
         <p>Rank: {items[index].rank}</p>

@@ -1,13 +1,12 @@
 [
-    { "name": "Apple", "rank": 1, "country": "United States" },
-    { "name": "Microsoft", "rank": 2, "country": "United States" },
-    { "name": "Amazon", "rank": 3, "country": "United States" },
-    { "name": "Alphabet", "rank": 4, "country": "United States" },
-    { "name": "Facebook", "rank": 5, "country": "United States" },
-    { "name": "Tencent", "rank": 6, "country": "China" },
-    { "name": "Samsung Electronics", "rank": 7, "country": "South Korea" },
-    { "name": "Intel", "rank": 8, "country": "United States" },
-    { "name": "IBM", "rank": 9, "country": "United States" },
-    { "name": "Oracle", "rank": 10, "country": "United States" }
-  ]
-  
+  { "name": "Apple", "rank": 1, "country": "United States", "description": "Apple Inc. is an American multinational technology company that designs, develops, and sells consumer electronics, computer software, and online services." },
+  { "name": "Microsoft", "rank": 2, "country": "United States", "description": "Microsoft Corporation is an American multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services." },
+  { "name": "Amazon", "rank": 3, "country": "United States", "description": "Amazon.com, Inc. is an American multinational conglomerate technology company based in Seattle, Washington. It focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence." },
+  { "name": "Alphabet", "rank": 4, "country": "United States", "description": "Alphabet Inc. is an American multinational conglomerate founded in 2015 as the parent company of Google and several other companies previously owned by or tied to Google." },
+  { "name": "Facebook", "rank": 5, "country": "United States", "description": "Facebook, Inc. is an American technology conglomerate that develops and sells social media services, hardware, virtual reality, and artificial intelligence." },
+  { "name": "Tencent", "rank": 6, "country": "China", "description": "Tencent Holdings Limited is a Chinese multinational conglomerate holding company founded in 1998. Its subsidiaries globally market various internet-related services and products." },
+  { "name": "Samsung Electronics", "rank": 7, "country": "South Korea", "description": "Samsung Electronics Co., Ltd. is a South Korean multinational electronics company that specializes in consumer electronics, IT & mobile communications, and device solutions." },
+  { "name": "Intel", "rank": 8, "country": "United States", "description": "Intel Corporation is an American multinational corporation and technology company headquartered in Santa Clara, California. It is the world's largest and highest-valued semiconductor chip manufacturer." },
+  { "name": "IBM", "rank": 9, "country": "United States", "description": "International Business Machines Corporation is an American multinational technology company that produces and sells computer hardware, middleware, and software, and provides hosting and consulting services." },
+  { "name": "Oracle", "rank": 10, "country": "United States", "description": "Oracle Corporation is an American multinational computer technology corporation that specializes primarily in developing and marketing database software and technology, cloud engineered systems, and enterprise software products." }
+]

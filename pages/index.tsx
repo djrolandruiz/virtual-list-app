@@ -23,11 +23,11 @@ const Home: React.FC = () => {
           <button className="signout-button" onClick={() => signOut()}>
             Sign Out
           </button>
-          
         </div>
 
         <div className="container">
           <h1>Welcome, {session?.user?.name}</h1>
+          <img src={session?.user?.image || ''} alt="" />
         </div>
 
         <style jsx>{`
@@ -39,12 +39,17 @@ const Home: React.FC = () => {
             padding: 10px;
             margin-bottom: 20px;
             height: 60px;
+            position: fixed;
+            top: 0;
+            width: 100%;
           }
-  
+
           ul {
             list-style-type: none;
+            margin: 0;
+            padding: 0;
           }
-  
+
           li {
             display: inline-block;
             margin-right: 10px;
@@ -68,13 +73,20 @@ const Home: React.FC = () => {
             border-radius: 4px;
             cursor: pointer;
           }
+
+          img {
+            margin-top: 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+          }
         `}</style>
       </>
     );
   } else {
     return (
       <div className="container">
-        <h1>Welcome to My Virtual List App Demo</h1>
+        <h1>Virtual List App Demo</h1>
         <button className="signin-button" onClick={() => signIn()}>
           Sign in
         </button>

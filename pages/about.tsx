@@ -31,7 +31,7 @@ const About: React.FC = () => {
       </div>
 
       <div className="about-content">
-        <h1>This is the About Page</h1>
+        <h1>About Page</h1>
       </div>
 
       <style jsx>{`
@@ -43,6 +43,9 @@ const About: React.FC = () => {
           padding: 10px;
           margin-bottom: 20px;
           height: 60px;
+          position: fixed;
+          top: 0;
+          width: 100%;
         }
 
         ul {
